@@ -1,154 +1,80 @@
-name: Neobanks API Collection
+aid: neobanks
+name: Neobanks
 description: A collection of APIs from leading neobanks and digital banking platforms
-url: https://example.com/neobanks-apis
-created: '2024-01-15'
-modified: '2024-01-15'
-specificationVersion: '0.16'
-apis:
-- name: Revolut API
-  description: Digital banking platform offering accounts, payments, and financial services
-  image: https://www.revolut.com/logo.png
-  humanUrl: https://www.revolut.com
-  baseUrl: https://api.revolut.com
-  tags:
-  - banking
-  - payments
-  - neobank
-  - fintech
-  properties:
-  - type: Documentation
-    url: https://developer.revolut.com/docs
-  - type: OpenAPI
-    url: https://developer.revolut.com/api-reference
-  - type: Authentication
-    url: https://developer.revolut.com/docs/api-authentication
-  contact:
-  - type: Support
-    url: https://developer.revolut.com/support
-- name: Chime API
-  description: Mobile banking services with no hidden fees
-  image: https://www.chime.com/logo.png
-  humanUrl: https://www.chime.com
-  baseUrl: https://api.chime.com
-  tags:
-  - banking
-  - mobile banking
-  - neobank
-  - consumer banking
-  properties:
-  - type: Documentation
-    url: https://developers.chime.com/docs
-  - type: API Portal
-    url: https://developers.chime.com
-- name: N26 API
-  description: European mobile banking platform with global reach
-  image: https://n26.com/logo.png
-  humanUrl: https://n26.com
-  baseUrl: https://api.tech26.de
-  tags:
-  - banking
-  - mobile banking
-  - neobank
-  - europe
-  properties:
-  - type: Documentation
-    url: https://docs.n26.com
-  - type: OpenAPI
-    url: https://docs.n26.com/openapi
-  - type: Developer Portal
-    url: https://developer.n26.com
-- name: Monzo API
-  description: UK-based digital bank with API-first approach
-  image: https://monzo.com/logo.png
-  humanUrl: https://monzo.com
-  baseUrl: https://api.monzo.com
-  tags:
-  - banking
-  - open banking
-  - neobank
-  - uk
-  properties:
-  - type: Documentation
-    url: https://docs.monzo.com
-  - type: OpenAPI
-    url: https://docs.monzo.com/openapi.yaml
-  - type: API Reference
-    url: https://docs.monzo.com/reference
-  - type: Playground
-    url: https://developers.monzo.com/playground
-- name: Starling Bank API
-  description: UK digital bank with comprehensive developer platform
-  image: https://www.starlingbank.com/logo.png
-  humanUrl: https://www.starlingbank.com
-  baseUrl: https://api.starlingbank.com
-  tags:
-  - banking
-  - open banking
-  - neobank
-  - uk
-  properties:
-  - type: Documentation
-    url: https://developer.starlingbank.com/docs
-  - type: OpenAPI
-    url: https://developer.starlingbank.com/openapi
-  - type: Developer Portal
-    url: https://developer.starlingbank.com
-  - type: Sandbox
-    url: https://developer.starlingbank.com/sandbox
-- name: Nubank API
-  description: Latin America's largest digital banking platform
-  image: https://nubank.com.br/logo.png
-  humanUrl: https://nubank.com.br
-  baseUrl: https://api.nubank.com.br
-  tags:
-  - banking
-  - neobank
-  - latin america
-  - brazil
-  properties:
-  - type: Documentation
-    url: https://developers.nubank.com.br
-  - type: Developer Portal
-    url: https://developers.nubank.com.br
-- name: Varo Bank API
-  description: US-based national digital bank
-  image: https://www.varomoney.com/logo.png
-  humanUrl: https://www.varomoney.com
-  baseUrl: https://api.varomoney.com
-  tags:
-  - banking
-  - neobank
-  - usa
-  - consumer banking
-  properties:
-  - type: Documentation
-    url: https://developers.varomoney.com/docs
-- name: Bunq API
-  description: European neobank with extensive API capabilities
-  image: https://www.bunq.com/logo.png
-  humanUrl: https://www.bunq.com
-  baseUrl: https://api.bunq.com
-  tags:
-  - banking
-  - neobank
-  - europe
-  - netherlands
-  properties:
-  - type: Documentation
-    url: https://doc.bunq.com
-  - type: API Reference
-    url: https://doc.bunq.com/api-reference
-  - type: GitHub
-    url: https://github.com/bunq
-  - type: SDKs
-    url: https://github.com/bunq
-maintainers:
-- name: API Catalog Team
-  email: apis@example.com
-  url: https://example.com
+  including Revolut, Monzo, Starling Bank, N26, Nubank, Bunq, and others that offer
+  modern banking services through developer-friendly APIs.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- neobank
-- digital banking
-- fintech
-- mobile banking
-- open banking
+  - Neobank
+  - Digital Banking
+  - Fintech
+  - Mobile Banking
+  - Open Banking
+url: https://raw.githubusercontent.com/api-evangelist/neobanks/refs/heads/main/apis.yml
+created: '2024-01-15'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: neobanks:revolut
+    name: Revolut API
+    description: Digital banking platform offering accounts, payments, and financial services
+    humanURL: https://developer.revolut.com
+    baseURL: https://api.revolut.com
+    tags:
+      - Banking
+      - Payments
+      - Neobank
+      - Fintech
+    properties:
+      - type: Documentation
+        url: https://developer.revolut.com/docs
+      - type: Authentication
+        url: https://developer.revolut.com/docs/api-authentication
+  - aid: neobanks:monzo
+    name: Monzo API
+    description: UK-based digital bank with API-first approach
+    humanURL: https://docs.monzo.com
+    baseURL: https://api.monzo.com
+    tags:
+      - Banking
+      - Open Banking
+      - Neobank
+      - UK
+    properties:
+      - type: Documentation
+        url: https://docs.monzo.com
+  - aid: neobanks:starling-bank
+    name: Starling Bank API
+    description: UK digital bank with comprehensive developer platform
+    humanURL: https://developer.starlingbank.com
+    baseURL: https://api.starlingbank.com
+    tags:
+      - Banking
+      - Open Banking
+      - Neobank
+      - UK
+    properties:
+      - type: Documentation
+        url: https://developer.starlingbank.com/docs
+      - type: Getting Started
+        url: https://developer.starlingbank.com/get-started
+  - aid: neobanks:bunq
+    name: Bunq API
+    description: European neobank with extensive API capabilities
+    humanURL: https://doc.bunq.com
+    baseURL: https://api.bunq.com
+    tags:
+      - Banking
+      - Neobank
+      - Europe
+    properties:
+      - type: Documentation
+        url: https://doc.bunq.com
+      - type: Reference
+        url: https://doc.bunq.com/api-reference
+      - type: GitHub Organization
+        url: https://github.com/bunq
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
