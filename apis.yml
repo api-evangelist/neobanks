@@ -1,18 +1,15 @@
 aid: neobanks
 name: Neobanks
-description: A collection of APIs from leading neobanks and digital banking 
-  platforms including Revolut, Monzo, Starling Bank, N26, Nubank, Bunq, and 
-  others that offer modern banking services through developer-friendly APIs.
+description: A collection of APIs from leading neobanks and digital banking platforms including Revolut, Monzo, Starling Bank, N26, Nubank, Bunq, and others that offer modern banking services through developer-friendly APIs.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Neobank
   - Digital Banking
   - Fintech
   - Mobile Banking
+  - Neobank
   - Open Banking
-url: 
-  https://raw.githubusercontent.com/api-evangelist/neobanks/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/neobanks/refs/heads/main/apis.yml
 created: '2024-01-15'
 modified: '2026-03-16'
 specificationVersion: '0.19'
@@ -25,9 +22,9 @@ apis:
     baseURL: https://api.revolut.com
     tags:
       - Banking
-      - Payments
-      - Neobank
       - Fintech
+      - Neobank
+      - Payments
     properties:
       - type: Documentation
         url: https://developer.revolut.com/docs
@@ -41,8 +38,8 @@ apis:
     baseURL: https://api.monzo.com
     tags:
       - Banking
-      - Open Banking
       - Neobank
+      - Open Banking
       - UK
     properties:
       - type: Documentation
@@ -55,8 +52,8 @@ apis:
     baseURL: https://api.starlingbank.com
     tags:
       - Banking
-      - Open Banking
       - Neobank
+      - Open Banking
       - UK
     properties:
       - type: Documentation
@@ -71,8 +68,8 @@ apis:
     baseURL: https://api.bunq.com
     tags:
       - Banking
-      - Neobank
       - Europe
+      - Neobank
     properties:
       - type: Documentation
         url: https://doc.bunq.com
