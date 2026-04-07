@@ -1,8 +1,8 @@
 aid: neobanks
 name: Neobanks
-description: A collection of APIs from leading neobanks and digital banking platforms
-  including Revolut, Monzo, Starling Bank, N26, Nubank, Bunq, and others that offer
-  modern banking services through developer-friendly APIs.
+description: A collection of APIs from leading neobanks and digital banking 
+  platforms including Revolut, Monzo, Starling Bank, N26, Nubank, Bunq, and 
+  others that offer modern banking services through developer-friendly APIs.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
@@ -11,14 +11,16 @@ tags:
   - Fintech
   - Mobile Banking
   - Open Banking
-url: https://raw.githubusercontent.com/api-evangelist/neobanks/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/neobanks/refs/heads/main/apis.yml
 created: '2024-01-15'
 modified: '2026-03-16'
 specificationVersion: '0.19'
 apis:
   - aid: neobanks:revolut
     name: Revolut API
-    description: Digital banking platform offering accounts, payments, and financial services
+    description: >-
+      Digital banking platform offering accounts, payments, and financial services.
     humanURL: https://developer.revolut.com
     baseURL: https://api.revolut.com
     tags:
@@ -33,7 +35,8 @@ apis:
         url: https://developer.revolut.com/docs/api-authentication
   - aid: neobanks:monzo
     name: Monzo API
-    description: UK-based digital bank with API-first approach
+    description: >-
+      UK-based digital bank with API-first approach.
     humanURL: https://docs.monzo.com
     baseURL: https://api.monzo.com
     tags:
@@ -46,7 +49,8 @@ apis:
         url: https://docs.monzo.com
   - aid: neobanks:starling-bank
     name: Starling Bank API
-    description: UK digital bank with comprehensive developer platform
+    description: >-
+      UK digital bank with comprehensive developer platform.
     humanURL: https://developer.starlingbank.com
     baseURL: https://api.starlingbank.com
     tags:
@@ -61,7 +65,8 @@ apis:
         url: https://developer.starlingbank.com/get-started
   - aid: neobanks:bunq
     name: Bunq API
-    description: European neobank with extensive API capabilities
+    description: >-
+      European neobank with extensive API capabilities.
     humanURL: https://doc.bunq.com
     baseURL: https://api.bunq.com
     tags:
