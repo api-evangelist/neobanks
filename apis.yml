@@ -80,3 +80,8 @@ apis:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+common:
+- type: VulnerabilityDisclosure
+  url: security/neobanks-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/neobanks-domain-security.yml
