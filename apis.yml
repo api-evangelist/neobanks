@@ -63,6 +63,11 @@ apis:
       - Banking
       - Neobank
       - Open Banking
+      - United Kingdom
+    tags_raw:
+      - Banking
+      - Neobank
+      - Open Banking
       - UK
     properties:
       - type: Documentation
@@ -74,6 +79,11 @@ apis:
     humanURL: https://developer.starlingbank.com
     baseURL: https://api.starlingbank.com
     tags:
+      - Banking
+      - Neobank
+      - Open Banking
+      - United Kingdom
+    tags_raw:
       - Banking
       - Neobank
       - Open Banking
