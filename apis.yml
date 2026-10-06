@@ -34,7 +34,7 @@ tags:
   - Open Banking
 url: https://raw.githubusercontent.com/api-evangelist/neobanks/refs/heads/main/apis.yml
 created: '2024-01-15'
-modified: '2026-04-28'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: neobanks:revolut
@@ -114,6 +114,8 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 common:
+- url: https://developer.revolut.com/blog/
+  type: Blog
 - type: VulnerabilityDisclosure
   url: security/neobanks-vulnerability-disclosure.yml
 - type: DomainSecurity
